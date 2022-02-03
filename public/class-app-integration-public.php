@@ -576,24 +576,3 @@ class App_Integration_Public {
 
 
 }
-
-
-// add_filter('get_avatar_data', 'ow_change_avatar', 100, 2);
-// function ow_change_avatar($args, $user_data) {
-//     if(is_object($user_data)){
-//         $user_id = $user_data->user_id;
-//     } else{
-//         $user_id = $user_data;
-//     }
-//     if($user_id){
-//         $author_pic = get_user_meta($user_id, 'author_pic', true);
-//         if($author_pic){
-//             $args['url'] = $author_pic;
-//         } else {
-//             $args['url'] = 'http://u1s.ee6.myftpupload.com/wp-content/uploads/2021/11/Dish-8-2.png';
-//         }
-//     } else {
-//         $args['url'] = 'guast user img url';
-//     }
-//     return $args;
-// }
